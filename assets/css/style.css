@@ -1,0 +1,28 @@
+/*https://careerkarma.com/blog/css-hero/ , 
+https://www.w3schools.com/howto/howto_css_hero_image.asp */
+
+.heroImage {
+    background: linear-gradient(rgba(0, 0, 0, 0.2),
+        rgba(0, 0, 0.2)), url(https://upload.wikimedia.org/wikipedia/commons/c/ca/Boston_skyline_from_Longfellow_Bridge_September_2017_panorama_2.jpg);
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 10%;
+}
+
+.heroContent {
+    padding-top: 25px;
+    text-align: center;
+    color:  white;
+}
+
+.registerButton{
+    border: none;
+    color: white;
+    padding: 10 px;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
