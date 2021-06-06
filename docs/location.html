@@ -1,71 +1,68 @@
 <head>
-<title>Location</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Location</title>
+    <meta charset="UTF-8">
+    <!--Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
-	<header>
-		<h1>
-			Location
-		</h1>
-
-		<h2>
-			<a href="index.html">Home |</a>
-			<a href="about.html">About |</a>
-			<a href="conference info.html">Conference Info |</a>
-			<a href="location.html">Location |</a>
-			<a href="register.html">Register</a>
-		</h2>
-
-		<h3>
-			<a href="https://www.signatureboston.com/bcec">Boston Convention & Exibition Center &#40;BCEC&#41;</a>
-		</h3>
-		<p>
-			Located in Boston which has it's on parking lot on property known as the South Parking Lot which holds 1,343 parking spaces & 200 for valet.
-		</p>
-
-	<!--Google Maps--!>
-    <style type="text/css">
-      /* Set the size of the div element that contains the map */
-      #map {
-        height: 400px;
-        /* The height is 400 pixels */
-        width: 100%;
-        /* The width is the width of the web page */
-      }
-    </style>
-    
-    <script>
-      // Initialize and add the map
-      function initMap() {
-        // The location of BCEC
-        const BCEC = { lat: 42.34802, lng: -71.04634 };
-        // The map, centered at BCEC
-        const map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 4,
-          center: BCEC,
-        });
-        // The marker, positioned at BCEC
-        const marker = new google.maps.Marker({
-          position: BCEC,
-          map: map,
-        });
-      }
-    </script>
-  </head>
-  <body>
-    <h3>My Google Maps Demo</h3>
-    <!--The div element for the map -->
-    <div id="map"></div>
-
-    <!-- Async script executes immediately and must be after any DOM elements used in callback.
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcgXHOfR_KQeOzNOYl9u5JNstwe_BYj8s&callback=initMap&libraries=&v=weekly"
-      async
-    ></script>
-    --!>
-
-	</header>
+    <header>
+        <!--Nav Bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <div class="container-fluid">
+                <!--can be replaced with an image-->
+                <a class="navbar-brand mb-0 h1" href="index.html">AD 649 Conference</a>
+                <!--hamburg at the end on mobile-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="conference_info.html">Conference Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="location.html">Location</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="register.html">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="heroImage">
+            <div class="heroContent">
+                <h1>Welcome to Boston</h1>
+                <p>Home of the very important conference</p>
+                <a href="register.html"><button class="registerButton bg-danger">Register</button></a>
+            </div>
+        </div>
+        <div>
+            <dl>
+                <dt>Venue information</dt>
+                <dd>Boston Convention & Exhibition Center (BCEC) in Boston.</dd>
+                <dd><a href="https://www.signatureboston.com/bcec">Link to Boston Convention & Exibition Center &#40;BCEC&#41;</a></dd>
+                <dt> Catering Information </dt>
+                <dd>Levy Restaurants is the official caterer for all food and beverage services within the BCEC.</dd>
+                <dt>Parking information</dt>
+                <dd>Parking lot on property known as the South Parking Lot which holds 1,343 parking spaces & 200 for valet.</dd>
+            </dl>
+            <div>
+                <img src="assets/images/mapStill">
+            </div>
+        </div>
+    </header>
+    <!-- Bootstrap JavaScript -->
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 </body>
+
 </html>
