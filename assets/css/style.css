@@ -11,8 +11,6 @@ https://www.w3schools.com/howto/howto_css_hero_image.asp */
     background-size: cover;
     position: relative;
     padding: 10%;
-
-
 }
 
 .heroContent {
@@ -34,12 +32,12 @@ https://www.w3schools.com/howto/howto_css_hero_image.asp */
 
 }
 
+/*Location*/
 .bcecMap {
     position: center;
     height: auto;
-    width: 100%;
-    border-radius: 10px;
-    border-color: black;
+    width: 50%;
+    
 }
 
 .container {
