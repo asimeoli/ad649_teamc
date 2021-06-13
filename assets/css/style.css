@@ -61,11 +61,20 @@ h1 {
   position: center;
 }
 
+/*form*/
 form {
   border-width: 2px;
   border-style: solid;
   border-color: black;
   padding: 20px;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+.afterForm {
+  padding: 10px;
 }
 
 /*footer*/
