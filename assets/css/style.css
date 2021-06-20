@@ -61,6 +61,28 @@ h1 {
   position: center;
 }
 
+/*agile lab link*/
+.agileLabLink:link,
+.agileLabLink:visited {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.agileLabLink:hover,
+.agileLabLink:active {
+  background-color: #dc3545;
+}
+
+.agileLabLinkDiv {
+  background-color: royalblue;
+  border-width: 2px;
+  border-style: outset;
+  border-radius: 7px;
+}
+
 /*form*/
 form {
   border-width: 2px;
@@ -78,8 +100,8 @@ form {
 }
 
 /*footer*/
-.bi {
-  font-size: 2rem;
+.socialNetwork {
   color: white;
+  font-size: 2rem;
   padding: 10px;
 }
