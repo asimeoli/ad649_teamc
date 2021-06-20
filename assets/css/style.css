@@ -83,6 +83,32 @@ h1 {
   border-radius: 7px;
 }
 
+/*conference links*/
+.pastConferences {
+  background-color: #dc3545;
+  list-style-type: none;
+  border-width: 2px;
+  border-style: outset;
+  border-radius: 7px;
+  text-align: center;
+  padding: 10px;
+}
+
+.pastConferenceLinks:link,
+.pastConferenceLinks:visited {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.pastConferenceLinks:hover,
+.pastConferenceLinks:active {
+  color: royalblue;
+}
+
 /*form*/
 form {
   border-width: 2px;
