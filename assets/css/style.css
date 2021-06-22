@@ -131,3 +131,12 @@ form {
   font-size: 2rem;
   padding: 10px;
 }
+
+.contactEmail {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 10px;
+}
